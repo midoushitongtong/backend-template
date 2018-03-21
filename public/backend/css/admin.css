@@ -1,0 +1,65 @@
+/* rewrite lte */
+.skin-blue .treeview-child > a,
+.skin-black .treeview-child > a,
+.skin-purple .treeview-child > a,
+.skin-green .treeview-child > a,
+.skin-red .treeview-child > a,
+.skin-yellow .treeview-child > a {
+    color: #8aa4af !important;
+}
+
+.skin-blue-light,
+.skin-black-light,
+.skin-purple-light,
+.skin-green-light,
+.skin-red-light,
+.skin-yellow-light {
+    color: #000 !important;
+}
+
+.treeview-child > a:hover {
+    color: #fff !important;
+}
+
+.control-sidebar-subheading {
+    cursor: pointer;
+}
+
+.list-unstyled .skin-item {
+    float: left;
+    width: 33.33333%;
+    padding: 5px;
+}
+
+.list-unstyled a {
+    display: block;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.4)
+}
+
+.list-unstyled span.skin-top-left {
+    display: block;
+    width: 20%;
+    float: left;
+    height: 7px;
+}
+
+.list-unstyled span.skin-top-right {
+    display: block;
+    width: 80%;
+    float: left;
+    height: 7px;
+}
+
+.list-unstyled span.skin-bottom-left {
+    display: block;
+    width: 20%;
+    float: left;
+    height: 20px;
+}
+
+.list-unstyled span.skin-bottom-right {
+    display: block;
+    width: 80%;
+    float: left;
+    height: 20px;
+}
